@@ -1,7 +1,7 @@
 import os, socket, json, time, struct
 
-filefolder = "C:/Users/Fabio Caruso/Documents/3D Drucker/"
-HOST = '192.168.1.59'
+filefolder = "/path/to/gcode/files"
+HOST = '[PRINTER IP]'
 PORT = 49372
 sock = False
 
